@@ -1,0 +1,17 @@
+funcion historiaPrincipal() -> entero32 {
+    sea cuenta : entero32 = 0;
+
+    mientras (verdadero) {
+        cuenta = cuenta + 1;
+
+        si (cuenta == 3) {
+            continuar;
+        }
+
+        si (cuenta == 5) {
+            romper;
+        }
+    }
+
+    devolver cuenta;
+}

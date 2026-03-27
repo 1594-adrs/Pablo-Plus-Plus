@@ -1,0 +1,4 @@
+funcion historiaPrincipal() -> entero32 {
+    devolver 0;
+}
+

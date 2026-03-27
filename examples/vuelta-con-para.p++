@@ -1,0 +1,9 @@
+funcion historiaPrincipal() -> entero32 {
+    sea saltos : entero32 = 0;
+
+    para (sea i : entero32 = 0; i < 4; i = i + 1) {
+        saltos = saltos + 1;
+    }
+
+    devolver saltos;
+}

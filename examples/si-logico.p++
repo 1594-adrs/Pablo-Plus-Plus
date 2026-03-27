@@ -1,0 +1,7 @@
+funcion historiaPrincipal() -> entero32 {
+    si (verdadero && !falso) {
+        devolver 1;
+    } siNo {
+        devolver 0;
+    }
+}

@@ -1,0 +1,15 @@
+funcion historiaPrincipal() -> entero32 {
+    sea paso8 : entero8 = -1;
+    sea paso16 : entero16 = -2;
+    sea paso64 : entero64 = -3;
+    sea farol8 : natural8 = 5;
+    sea farol16 : natural16 = 6;
+    sea farol32 : natural32 = 7;
+    sea farol64 : natural64 = 8;
+
+    si (paso8 < 0 && paso16 < 0 && paso64 < 0 && farol8 == 5 && farol16 == 6 && farol32 == 7 && farol64 == 8) {
+        devolver 9;
+    }
+
+    devolver 0;
+}

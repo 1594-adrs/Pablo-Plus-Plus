@@ -1,0 +1,5 @@
+externa abs(valor : entero32) -> entero32;
+
+funcion historiaPrincipal() -> entero32 {
+    devolver abs(-7);
+}

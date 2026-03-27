@@ -1,0 +1,5 @@
+funcion historiaPrincipal() -> entero32 {
+    imprimirEntero32(7);
+    imprimirLinea();
+    devolver 0;
+}

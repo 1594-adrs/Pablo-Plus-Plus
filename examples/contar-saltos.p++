@@ -1,0 +1,14 @@
+funcion contarSaltos(meta : entero32) -> entero32 {
+    sea saltos : entero32 = 0;
+
+    mientras (saltos < meta) {
+        saltos = saltos + 1;
+    }
+
+    devolver saltos;
+}
+
+funcion historiaPrincipal() -> entero32 {
+    devolver contarSaltos(5);
+}
+
